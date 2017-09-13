@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>smertegrænsen.dk</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <a href="page-1.html" target="_self" class="smert-logo"></a>
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Intro Section -->
+    <section id="rangeS" class="rangeS-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-lg-8">
+                    <p class="number text-left">5/5</p>
+                    <p class="rangeS-text">Hvor stærke smerter har du haft inden for den sidste uge?<br><br><br>Markér med slideren.<br>
+                    <input type="text" id="amount" readonly style="border:0; color:#FFFFFF; font-weight:bold;"></p>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4"> </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-8">
+                <div id="slider-range-min"></div>
+                <p class="range-left">0<br>Slet ingen smerter</p><p class="range-right">10<br>Værst tænkelige/<br>uudholdelige smerter</p>
+                <span class="clear"></span>
+              </div>
+              <div class="col-xs-12 col-md-4"><a class="btn btn-q page-scroll " href="page-9.1.html">Videre</a></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-left kon">KONKURRENCEBETINGELSER >></p>
+        <a href="#" target="_blank" class="gigt-logo"></a>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script>
+    $(function() {
+    $( "#slider-range-min" ).slider({
+      range: "min",
+      value:3,
+      min: 0,
+      max: 10,
+      step: 1,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( ui.value );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range-min" ).slider( "value" ) );
+  });
+</script>
+</body>
+</html>

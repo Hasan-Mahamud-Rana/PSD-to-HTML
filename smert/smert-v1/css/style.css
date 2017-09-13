@@ -1,0 +1,931 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,800italic,700);
+.button, .top-bar-section ul li>a, a, body, button, dl, h1, h2, h3, h4, h5, h6, input, label, li, ol, p, table, td, textarea, thead, tr, ul {
+  font-family: 'Exo 2', sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  color: #dd141a;
+  font-size: 52px;
+  line-height: 1.038;
+  text-align: center;
+}
+ul.malefemale {
+  width: 762px;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.malefemale li {
+  list-style: none;
+  float: left;
+}
+a.male {
+  background: url(../img/male.png) center center no-repeat;
+  background-size: cover;
+}
+a.female {
+  background: url(../img/female.png) center center no-repeat;
+  background-size: cover;
+}
+a.male, a.female {
+  width: 381px;
+  height: 412px;
+  display: block;
+}
+.btn-start {
+  border-color: #ccc;
+  font-size: 42px;
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #dd141a;
+  padding: 1% 10%;
+  margin-bottom: 50px;
+}
+.btn-start:hover {
+  color: #f8f8f8;
+}
+p.start-text {
+  font-size: 26px;
+  color: #666666;
+  line-height: 1.286;
+  text-align: center;
+  margin: 5% 0;
+  padding: 0 20%;
+}
+p.kon {
+  font-size: 12px;
+  color: #666666;
+  line-height: 1.286;
+  padding: 1% 0;
+}
+a.med, a.medmobile {
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #dd141a;
+  font-style: italic;
+  line-height: 0.917;
+}
+a.medmobile {
+  display: none;
+}
+a.smert-logo {
+  display: block;
+  height: 26px;
+  width: 240px;
+  margin: 0 auto;
+  background: url(../img/logo.png) center center no-repeat;
+  background-size: contain;
+}
+.navbar {
+  padding: 20px 0;
+}
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+  .intro-section {
+  padding-top: 150px;
+  text-align: center;
+  background: #f8f8f8;
+  }
+  .intro-section > .container {
+  background: url(../img/croquis-head.png) bottom center no-repeat;
+  background-size: 44%;
+  }
+  .gender-section {
+  padding-top: 150px;
+  text-align: center;
+  background: #f8f8f8;
+  }
+  .gender-section h1{
+  padding: 0 0 2% 0;
+  }
+  .age-section {
+  padding-top: 150px;
+  text-align: center;
+  background: #f8f8f8;
+  }
+  .age-section > .container {
+  background: url(../img/age-head.png) bottom center no-repeat;
+  background-size: 44%;
+  min-height: 500px;
+  }
+  .age-section h1{
+  padding: 0 0 1% 0;
+  }
+
+  .q1-section , .q2-section, .q3-section, .q4-section, .q5-section, .rangeS-section {
+  padding-top: 100px;
+  text-align: center;
+  background: #f8f8f8;
+  }
+  .q1-section > .container, .q2-section > .container, .q3-section > .container, .q4-section > .container, .q5-section > .container, .rangeS-section > .container {
+  max-width: 960px;
+  background: url(../img/smertemand.png) top right no-repeat;
+  background-size: contain;
+  }
+  .q1-section p.number, .q2-section p.number, .q3-section p.number, .q4-section p.number, .q5-section p.number, .rangeS-section p.number  {
+  font-size: 20px;
+  color: #acacac;
+  line-height: 1.8;
+  }
+  .q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text, .q4-section p.q4-text, .q5-section p.q5-text, .rangeS-section p.rangeS-text    {
+  font-size: 28px;
+  color: #666666;
+  line-height: 1.286;
+  text-align: center;
+  padding: 5% 6% 0 0;
+  min-height: 255px;
+  }
+  .q1-section > .container .row:last-child, .q2-section > .container .row:last-child, .q3-section > .container .row:last-child, .q4-section > .container .row:last-child, .q5-section > .container .row:last-child, .rangeS-section > .container .row:last-child{
+    margin-bottom: 120px;
+ }
+  .btn-q {
+    border-color: #dd141a;
+    font-size: 32px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.688;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #dd141a;
+    margin-bottom: 20px;
+    padding: 4% 0;
+    width: 293px;
+    height: 91px;
+  }
+  .btn-q:hover {
+  color: #f8f8f8;
+  background-color: #f82028;
+  }
+    h4#myModalLabel, .modal-body p { 
+      font-size: 22px;
+      font-family: 'Exo 2', sans-serif;
+      color: #fff;
+      font-weight: bold;
+      line-height: 1.273;
+      text-align: center;
+    }
+
+    .modal-backdrop {
+      background-color: #000;
+      opacity: .9 !important;
+    }
+    .modal-body p{
+      font-weight: normal;
+      padding: 2% 16%;
+    }
+    .modal-header {
+      border-bottom: 0; 
+    }
+    .modal-header .close {
+      background: url(../img/close.png) center center no-repeat;
+      background-size: contain;
+      display: block;
+      width: 27px;
+      height: 27px;
+      outline: 0;
+    }
+    .modal-dialog {
+      max-width: 960px;
+      margin: 135px auto;
+    }
+ 
+img.mf {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+.footer {
+  padding: 10px 0 20px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF;
+  border-top: 1px solid #e7e7e7;
+}
+a.gigt-logo {
+  display: block;
+  height: 29px;
+  width: 139px;
+  margin: 0 auto;
+  background: url(../img/Gigt-logo-uden-payoff.png) center center no-repeat;
+  background-size: contain;
+}
+p.age-text {
+    padding: 12.5% 0;
+}
+p.age-text span:first-child {
+  color: #fff;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 0.871;
+  text-align: center;
+  padding-right: 10%;
+}
+
+p.age-text span:nth-child(2){
+  color: #000;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 0.871;
+  text-align: center;
+}
+
+
+p.age-text span:last-child {
+  color: #fff;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 0.871;
+  text-align: center;
+  padding-left: 10%;
+}
+p.age-text span:last-child a, p.age-text span:first-child a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*permission */
+.check1 .option-txt{color:#dd141a;font-weight: 700;font-size: 18px;}
+.option-txt{color:#dd141a;font-weight: 700;font-size: 22px;}
+.option-txt2{color: rgb(102, 102, 102);font-size: 22px;}
+.check2 .option-txt{color:#dd141a;font-weight: 700;font-size: 18px;}
+.form-group {
+    padding: 1% 24%;
+}
+input[type=checkbox]:not(old){
+  width   : 40px;
+  margin  : 0;
+  padding : 0;
+  opacity : 0;
+}
+
+input[type=checkbox]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -40px;
+  padding-left : 45px;
+  background   : url('../img/checkbox.png') no-repeat 0 0;
+  line-height  : 24px;
+  color: #dd141a;
+  font-weight: 700;
+ font-size: 18px;
+}
+
+input[type=checkbox]:not(old):checked + label{
+  background-position : 0 -100px;
+} 
+input[type="checkbox"]:focus{
+  outline:0;
+}
+.check-last {
+    text-align: left;
+    padding-right: 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.check1, .check2 {
+    padding: 30% 2% 3% 2%;
+    text-align: left;
+    margin-bottom: 20px;
+	height: 278px;
+}
+.check1 {background:#fff url(../img/s1.jpg) top center no-repeat;}
+.check2 {background:#fff url(../img/s2.jpg) top center no-repeat;}
+.permission-section {
+    padding-top: 150px;
+    text-align: center;
+    background: #f8f8f8;
+}
+.permission h1{
+  font-size: 42px;
+  padding:0 18%;
+}
+p.frm {
+    font-size: 22px;
+    color: rgb(102, 102, 102);
+    font-weight: normal;
+    line-height: 1.143;
+    padding: 1% 22%;
+}
+/*permission */
+input#amount {
+  text-align: center;
+  background: #dddddd;
+  border: 0;
+  color: #fff;
+  border-radius: 2px;
+  width: 18%;
+  line-height: 1.25;
+  text-shadow: 1px 1px 1px #212121;
+}
+ 
+.ui-widget-header {
+  background: #dd141a;
+}
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 2px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+  border-top-right-radius: 2px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-left-radius: 2px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+  border-bottom-right-radius: 2px;
+}
+.ui-widget {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 3em;
+  margin: 2.8rem 0;
+}
+.ui-widget-content {
+  background: #dddddd;
+  border: 0;
+  border-top: 1px solid #828282;
+}
+.ui-slider-horizontal .ui-slider-range {
+  border-top: 1px solid #212121;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #909090;
+  background: #ababab url("../img/lr-arrow.jpg") 50% 50% no-repeat;
+  border-radius: 2px; 
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.6em;
+}
+.ui-slider .ui-slider-handle {
+  width: 1.2em;
+  height: 2em;
+  outline: 0;
+}
+p.range-left {float: left;
+  text-align: left;
+  top: -0;
+  color: #666666;
+}
+p.range-right{
+  float: right;
+  text-align: right;
+  top: -0;
+  color: #666666;
+}
+.clear{
+  clear: both;
+}
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+li.parsley-required {
+  text-align: left;
+  color: #DD141A;
+}
+.cwd {
+  margin-bottom: 15px;
+}
+.pl {
+  padding-left: 0;
+}
+.pr{
+  padding-right: 0;
+}
+.np{
+  padding-left: 0;
+  padding-right: 0;
+}
+.np.check-last.cwd {
+  padding: 15px 15px 15px 11px;
+}
+ul#parsley-id-multiple-gift {
+  margin-top: -10px;
+}
+a.med {
+  display: inline-block;
+  width: 120px;
+  margin-right: 140px;
+} 
+.check-last.cwd.parsley-error {
+  background-color: #F2DEDE;
+}
+@media screen and (max-width:1236px) {
+.permission-section {
+  padding-top: 110px;
+}
+p.frm {
+  padding: 1% 16%;
+}
+.check1 .option-txt, .check2 .option-txt {
+  font-size: 15px;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 40px;
+}
+.option-txt2 {
+  font-size: 18px;
+}
+p.start-text {
+  padding: 0 18%;
+  font-size: 26px;
+}
+a.med {
+  margin-right: 140px;
+}
+.age-section > .container {
+  min-height: 435px;
+}
+.q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text, .q4-section p.q4-text, .q5-section p.q5-text, .rangeS-section p.rangeS-text    {
+  padding: 5% 6% 15% 0;
+}
+.q1-section > .container .row:last-child, .q2-section > .container .row:last-child, .q3-section > .container .row:last-child, .q4-section > .container .row:last-child, .q5-section > .container .row:last-child, .rangeS-section > .container .row:last-child {
+  margin-bottom: 90px;
+}
+.form-group {
+  padding: 1% 19%;
+}
+}
+
+@media screen and (max-width:1020px) {
+p.frm {
+  padding: 1% 6%;
+}
+.check1 {
+  padding: 40% 2% 6.5% 2%;
+  margin-bottom: 0;
+}
+.check2 {
+  padding: 45% 2% 3% 2%;
+}
+.frm-btn {
+  width: 100%;
+}
+.cwd {
+  padding-left: 0;
+  padding-right: 0;
+}
+input.chk3 {
+  height: 70px;
+  width: 35px;
+}
+h1 {
+  font-size: 52px;
+}
+p.start-text {
+  font-size: 26px;
+  padding: 0 10%;
+}
+a.med {
+    margin-right: 55px;
+}
+.intro-section > .container {
+  background-size: 63%;
+}
+.age-section > .container {
+  min-height: 365px;
+}
+.btn-q {
+  padding: 2.5% 0;
+}
+.q1-section > .container, .q2-section > .container, .q3-section > .container, .q4-section > .container, .q5-section > .container , .rangeS-section > .container {
+  background: none;
+}
+.q1-section > .container .row:last-child, .q2-section > .container .row:last-child, .q3-section > .container .row:last-child, .q4-section > .container .row:last-child, .q5-section > .container .row:last-child , .rangeS-section > .container .row:last-child{
+  margin-bottom: 80px;
+}
+.modal-body p {
+    padding: 3% 24%;
+}
+.btn-start {
+  margin: 30px 0 20px 0;
+}
+}
+
+@media screen and (max-width:767px) {
+.intro-section > .container {
+  background: none;
+}
+a.med {
+  display: none;
+}
+a.medmobile {
+  display: block;
+}
+p.kon {
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+}
+p.start-text {
+  font-size: 25px;
+  padding: 0 3%;
+}
+.intro-section, .gender-section, .age-section {
+  padding-top: 90px;
+}
+.btn-start {
+  font-size: 30px;
+  padding: 2% 32%;
+  margin-bottom: 20px;
+}
+ul.malefemale {
+  width: 370px;
+}
+a.male, a.female {
+  width: 185px;
+  height: 200px;
+}
+.q1-section p.number, .q2-section p.number, .q3-section p.number, .q4-section p.number, .q5-section p.number , .rangeS-section p.number{
+  text-align: center;
+}
+.q1-section > .container .row:last-child, .q2-section > .container .row:last-child, .q3-section > .container .row:last-child, .q4-section > .container .row:last-child, .q5-section > .container .row:last-child , .rangeS-section > .container .row:last-child{
+  margin-bottom: 0;
+}
+ 
+}
+@media screen and (max-width: 736px){
+.age-section > .container {
+  min-height: 350px;
+}
+.q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text, .q4-section p.q4-text, .q5-section p.q5-text, .rangeS-section p.rangeS-text {
+  padding: 0 2% 0;
+  min-height: 160px;
+}
+.form-group {
+  padding: 1% 20%;
+}
+.check1 {
+  padding: 40% 2% 6.5% 2%;
+}
+.check2 {
+  padding: 50% 2% 3% 2%;
+}
+}
+@media screen and (max-width: 667px){
+h1 {
+  font-size: 40px;
+}
+.age-section > .container {
+  min-height: 320px;
+}
+.form-group {
+  padding: 1% 19%;
+}
+}
+@media screen and (max-width:568px) {
+.permission-section {
+  padding-top: 90px;
+}
+.permission h1 {
+  font-size: 26px;
+  padding: 0;
+}
+p.frm {
+  font-size: 20px;
+  padding: 0;
+}
+.form-group {
+  padding: 1% 5%;
+}
+.option-txt2 {
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 36px;
+}
+p.start-text {
+  font-size: 22px;
+  padding: 0 3%;
+}
+.intro-section, .gender-section, .age-section {
+  padding-top: 90px;
+}
+.btn-start {
+  font-size: 30px;
+  padding: 2% 32%;
+  margin-bottom: 20px;
+}
+ul.malefemale {
+  width: 370px;
+}
+a.male, a.female {
+  width: 185px;
+  height: 200px;
+}
+.age-section > .container {
+  background-size: 50%;
+  min-height: 305px;
+}
+}
+
+@media screen and (max-width:500px) {
+h1 {
+  font-size: 30px;
+}
+p.start-text {
+  font-size: 26px;
+  padding: 0 3%;
+}
+.btn-start {
+  font-size: 28px;
+  padding: 5% 32%;
+}
+
+.age-section > .container {
+  background-size: 66%;
+  min-height: 360px;
+}
+p.age-text span:first-child, p.age-text span:nth-child(2), p.age-text span:last-child {
+  font-size: 42px;
+}
+p.age-text span:first-child{
+  padding-right: 15%;
+}
+p.age-text span:last-child {
+  padding-left: 15%;
+}
+.gender-section h1{
+  padding: 10% 5% 20% 5%;
+}
+.age-section h1{
+  font-size: 36px;
+  padding: 5% 5%;
+}
+p.age-text {
+    padding: 19.5% 0;
+}
+.q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text, .q4-section p.q4-text, .q5-section p.q5-text , .rangeS-section p.rangeS-text{
+  font-size: 28px;
+  padding: 0 2% 0;
+  min-height: 150px;
+}
+.q1-section, .q2-section, .q3-section, .q4-section, .q5-section , .rangeS-section {
+  padding-top: 70px;
+}
+.btn-q {
+  font-size: 30px;
+  width: 390px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 15px;
+} 
+.modal-dialog {
+  margin: 55px auto;
+}
+h4#myModalLabel, .modal-body p {
+  font-size: 21px;
+}
+.modal-body p {
+  padding: 9% 2%;
+}
+.modal-header .close {
+  width: 24px;
+  height: 24px;
+  margin: -32px 32px 0 0;
+}
+}
+
+@media screen and (max-width:405px) {
+h1 {
+  font-size: 28px;
+}
+p.start-text {
+  font-size: 24px;
+  padding: 0 3%;
+}
+.btn-start {
+  font-size: 26px;
+  padding: 5% 32%;
+  margin-bottom: 15px;
+}
+ul.malefemale {
+  width: 340px;
+}
+a.male, a.female {
+  width: 170px;
+  height: 220px;
+}
+
+.age-section > .container {
+  background-size: 66%;
+  min-height: 330px;
+}
+p.age-text span:first-child, p.age-text span:nth-child(2), p.age-text span:last-child {
+  font-size: 42px;
+}
+p.age-text span:first-child{
+  padding-right: 10%;
+}
+p.age-text span:last-child {
+  padding-left: 10%;
+}
+.age-section h1{
+  font-size: 32px;
+  padding: 5% 5%;
+}
+.q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text, .q4-section p.q4-text, .q5-section p.q5-text , .rangeS-section p.rangeS-text{
+  font-size: 25px;
+}
+.q1-section, .q2-section, .q3-section, .q4-section, .q5-section , .rangeS-section{
+  padding-top: 70px;
+}
+
+.btn-q {
+  font-size: 28px;
+  width: 340px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 15px;
+} 
+
+.modal-dialog {
+  margin: 55px auto;
+}
+h4#myModalLabel, .modal-body p {
+  font-size: 19px;
+}
+.modal-body p {
+  padding: 9% 2%;
+}
+.modal-header .close {
+  width: 20px;
+  height: 20px;
+  margin: -28px 24px 0 0;
+}
+p.frm {
+  font-size: 18px;
+}
+.check1 {
+  padding: 45% 2% 6.5% 2%;
+}
+.check2 {
+  padding: 55% 2% 3% 2%;
+}
+.option-txt2 {
+  font-size: 16px;
+}
+input.chk3 {
+  height: 50px;
+  width: 35px;
+}
+}
+
+@media screen and (max-width:374px) {
+h1 {
+  font-size: 22px;
+}
+p.start-text {
+  font-size: 20px;
+  padding: 0 3%;
+}
+.intro-section, .gender-section, .age-section {
+  padding-top: 70px;
+}
+.btn-start {
+  font-size: 26px;
+  padding: 2% 28%;
+  margin-bottom: 10px;
+}
+ul.malefemale {
+  width: 280px;
+}
+a.male, a.female {
+  width: 140px;
+  height: 185px;
+}
+.age-section > .container {
+  background-size: 66%;
+  min-height: 285px;
+}
+p.age-text span:first-child, p.age-text span:nth-child(2), p.age-text span:last-child {
+  font-size: 42px;
+}
+.age-section h1{
+  font-size: 26px;
+  padding: 5% 5%;
+}
+.q1-section p.q1-text, .q2-section p.q2-text, .q3-section p.q3-text , .q4-section p.q4-text , .q5-section p.q5-text   , .rangeS-section p.rangeS-text {
+  font-size: 21px;
+}
+.rangeS-section p.rangeS-text {
+  padding: 0 1% 0;
+}
+.q1-section, .q2-section, .q3-section, .q4-section, .q5-section , .rangeS-section{
+  padding-top: 70px;
+}
+.btn-q {
+  font-size: 28px;
+  width: 293px;
+  height: 50px;
+  padding: 0;
+  margin-bottom: 10px;
+} 
+.modal-dialog {
+  margin: 50px auto;
+}
+h4#myModalLabel, .modal-body p {
+  font-size: 16px;
+}
+.modal-body p {
+  padding: 10% 2%;
+} 
+.modal-header .close {
+  width: 16px;
+  height: 16px;
+  margin: -22px 14px 0 0;
+}
+.permission h1 {
+  font-size: 24px;
+}
+p.frm {
+  font-size: 15px;
+  line-height: 1.4;
+}
+.check1 {
+  padding: 55% 2% 6.5% 2%;
+}
+.check2 {
+  padding: 70% 2% 3% 2%;
+}
+.check1 .option-txt, .check2 .option-txt {
+  font-size: 16px;
+}
+span.schk2, span.schk3 {
+  display: inline-block;
+  height: 70px;
+  float: left;
+  margin-right: 3%;
+}
+span.schk3 {
+  height: 90px;
+}
+.option-txt {
+  font-size: 17px;
+}
+.option-txt2 {
+  font-size: 15px;
+}
+}

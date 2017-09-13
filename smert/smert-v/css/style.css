@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,800italic,700);
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30%;
+    text-align: center;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: #dd141a; 
+    font-size: 52px;
+    line-height: 1.038;
+    text-align: center;
+}
+.btn-start {
+  border-color: #ccc;
+  font-size: 42px;
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #dd141a;
+  padding: 1% 10%;
+  margin-bottom: 50px;
+}
+.btn-start:hover {
+  color: #f8f8f8;
+}
+
+p.start-text{
+   font-size: 28px;
+   color: #666666;
+   line-height: 1.286;
+   text-align: center;
+   margin: 5% 0;
+}
+p.kon{
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.286;
+  padding: 1% 0;
+}
+a.med{
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #dd141a;
+  font-style: italic;
+  line-height: 0.917;
+ 
+}
+
+a.smert-logo {
+    display: block;
+    height: 26px;
+    width: 240px;
+    margin: 0 auto;
+    background: url(../img/logo.png) center center no-repeat;
+    background-size: cover;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+        .intro-section {
+            height: 70%;
+            padding-top: 150px;
+            text-align: center;
+            background: #f8f8f8;
+        }
+        .intro-section > .container{
+            background: url(../img/croquis-head.png) bottom center no-repeat;
+            background-size: 44%;
+            max-height: 600px;
+        }
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #f8f8f8;
+}
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #FFF;
+    border-top: 1px solid #e7e7e7;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+a.gigt-logo {
+    display: block;
+    height: 29px;
+    width: 139px;
+    margin: 0 auto;
+    background: url(../img/Gigt-logo-uden-payoff.png) center center no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:1440px) {
+.intro-section {
+    height: 80%;
+}
+body{
+    margin-bottom: 20%;
+}
+.footer {
+    height: 20%;
+}
+}
+@media screen and (max-width:1280px) {
+.intro-section {
+    height: 85%;
+}
+body{
+    margin-bottom: 15%;
+}
+.footer {
+    height: 15%;
+}
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+ 
